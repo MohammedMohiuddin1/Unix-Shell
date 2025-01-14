@@ -1,6 +1,5 @@
 #include "shell.h"
-/*Program 1: Unix Shell 
-Mohammed Mohiuddin and Rayyan Karim */
+
 
 //global line arguments 
 char *args[MAX_LINE / 2 + 1]; 
@@ -27,7 +26,7 @@ void initializeInput() {
 }
 
 
-//print ascii helper function for bonus extra credit
+//print ascii helper function
 void printAscii()
 {
     printf("  |\\_/|        ****************************    (\\_/)\n");
